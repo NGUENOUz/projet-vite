@@ -1,0 +1,34 @@
+.App-header{
+    margin: 0%;
+    display: flex;
+    color: white;
+
+
+}
+
+.logo{
+    width: 10rem;
+    height: 3rem;
+ 
+    padding-top: 3%;
+}
+.Header-menus{
+    display: flex;
+    color: white;
+    gap: 3rem;
+    list-style: none;
+    padding-top: 3%;
+    margin-left: 20%;
+  
+}
+.Header-menus .li{
+    cursor: pointer;
+}
+.Header-menus li:hover{
+    cursor: pointer;
+    color: var(--bleu);
+    border-bottom: 1px solid var(--bleu);
+}
+
+
+

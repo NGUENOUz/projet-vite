@@ -1,0 +1,101 @@
+.Footer h1{
+    text-align: center;
+    color: white;
+}
+.droite p{
+    padding-bottom: 2%;
+    text-align: right;
+    margin-right: 3%;
+}
+.Footer{
+    border-top: 1px solid var(--bleu);
+    background: #2e2d2e;
+    display: block;
+    
+}
+.droite{
+    color:  white;
+    width: 600px;
+    height:150px;
+  margin-top: -8%;
+    margin-left: 55%;
+    display: block;
+   
+
+
+
+}
+.droite input{
+    border-radius:0px;
+    width: 250px;
+    height: 50px;
+    margin-top: -3%;
+}
+.btn-i{
+    margin-top: -4%;
+    position: absolute;
+    negative: initial;
+    margin-left: 28%;
+}
+.droite button{
+    width: 120px;
+    height: 40px;
+    margin-left: 80%;
+    top:12%
+    
+
+}
+.centre{
+    text-align: center;
+    margin-top: -11%;
+}
+.centre img{
+    cursor: pointer;
+}
+
+.centre>img:hover{
+    transform: rotate('12°') ;
+    transition: ease all 1s ;
+    background: #575555;
+    border-radius: 12%;
+}
+
+
+.gauche{
+    margin-left: 2%;
+}
+.gauche h2{
+    margin-left: 10%;
+}
+.gauche ul{
+    text-align: left;
+}
+.gauche .Header-menus{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    width: 300px;
+    background:rgb(32, 32, 32);
+    box-shadow: 1 0 1 0 white;
+    border-radius: 12px;
+    padding-bottom: 12px;
+
+    padding-top:2% 
+}
+.cop{
+    display:block;
+     padding-bottom: 3%;
+    text-align: center;
+}
+.cop img{
+    margin-top: -1%;
+    width: 30px;
+    height: 30px;
+
+}
+.cop span{
+    font-size: 30px;
+}
+
+
+

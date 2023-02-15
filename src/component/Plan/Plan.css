@@ -1,0 +1,101 @@
+.Plan h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+   
+}
+.meilleur{
+ 
+   box-shadow: 12px 12px 0 0 var(--bleu) ;
+}
+.meilleur .prix-plan{
+    margin-top: -7%;
+    font-size: 60px;
+}
+.meilleur .description-plan{
+    margin-top: -8%;
+}
+.Plan{
+    margin-right:8%;
+    padding-top: 3%;
+}
+.b{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.box-plan{
+    width: 300px;
+    height: 400px;
+    background:gray;
+    margin-left: 4%;
+    color: white;
+}
+.box-plan>img{
+    box-shadow: 12px 12px 0 white;
+}
+.box-plan p{
+    margin-left: 12%;
+    
+}
+.box-plan>:nth-child(2){
+    font-size: 40px;
+}
+.description-plan{
+    list-style: none;
+    font-weight: 500;
+    
+}
+.description-plan li img{
+    width: 20px;
+    height: 20px;
+}
+.plan-niveau{
+    font-size: 90px;
+}
+.plus{
+    width: 20%;
+    border-bottom: 2px solid  var(--bleu);
+    transition: ease all 2s;
+    cursor: pointer;
+}
+.plus:hover{
+    transform: scale(1.2);
+    border-top: 2px solid var(--bleu);
+    border-left:2px solid var(--bleu) ;
+    border-right: 2px solid var(--bleu);
+}
+
+.btn-subscribe{
+    
+    margin-left: 73%;
+    background:var(--bleu);
+    width: 80px;
+    height: 30px;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+.btn-subscribe>span{
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+@media (max-width:412px){
+    .The-best{
+        max-width: 90%;
+        
+    }
+    .The-best span {
+        font-size: 15px;
+    }
+    .figures>div>span:nth-of-type(2){
+        color:var(--gray);
+        font-size: 15px;
+      }
+
+}
